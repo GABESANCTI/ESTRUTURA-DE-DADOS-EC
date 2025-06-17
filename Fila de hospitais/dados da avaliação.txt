@@ -1,0 +1,27 @@
+Desenvolver uma solução computacional para gerenciar uma fila de cirurgias de uma sistema de saúde.
+Os pacientes realizam o cadastro da cirurgia médica no sistema e para isso fornecem os seguintes dados:
+
+CPF
+Nome
+Tipo de Especialidade da Cirurgia (Pediátrica, oftalmológica, ortopédica entre outras)
+Nome do Médico
+Tipo de Cirurgia: eletiva ou emergência 
+De acordo com o tipo da cirurgia, o paciente será encaminhado para filas distintas. 
+Existirá uma fila para cirurgias eletivas e outra fila para cirurgias de emergência. 
+Por meio de um menu, o operador do sistema também poderá retirar os pacientes das respectivas filas. 
+De forma geral, o menu de opções do sistema terá as opções:
+
+criação da fila;
+cadastro de pacientes;
+retirada de pacientes da fila de cirurgias de emergência;
+retirada de pacientes da fila de cirurgias eletivas;
+Destruição das filas.
+
+Entre outras, de acordo com sua interpretação dos aspectos técnicos da solução;
+Aspectos técnicos da solução
+Todo cadastro de paciente compreende a inserção dele em alguma fila de cirurgia (emergência ou eletiva);
+Deve ser possível consultar a quantidade de pacientes que estão em cada uma das filas;
+Cada retirada de paciente da sua fila pressupões a apresentação de um mensagem na tela mostrando o encaminhamento
+ "Paciente x, sob responsabilidade do Médico y, encaminhado para cirurgia z, em modo w (que pode ser eletivo ou emergência);
+A destruição da fila pressupõe na retirada de todos os pacientes e
+ geração do encaminhamento em arquivo do tipo texto;

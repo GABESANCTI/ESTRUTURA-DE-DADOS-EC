@@ -1,0 +1,8 @@
+Especificação da avaliação II
+A lista linear criada guarda apenas números inteiros.
+
+Vamos construir uma lista para endereços de páginas web (Uniform Resource Locator - URL) 
+acessadas? Consideremos que o tamanho máximo que cada URL pode guardar é de 2083 caracteres. 
+Guarde também o dia e a hora que a página foi acessada.
+
+A lista deve armazenar 10 dados referentes à URL acessadas.
